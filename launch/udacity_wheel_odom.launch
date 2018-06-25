@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>	
+
+<launch>
+  <param name="udacity_wheel_odom/wheel_radius_mm" value="678" />
+  <node pkg="udacity_odom" type="udacity_wheel_odom" name="udacity_wheel_odom" />
+</launch>
+
+
